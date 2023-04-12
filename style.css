@@ -1,0 +1,234 @@
+body {
+    width: 98%;
+    height: 100%;
+
+}
+
+fotos {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  titulo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  texto1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+  }
+
+  h1 {
+    color: #757171;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    text-align: center;
+  }
+
+  bloque {
+    display: flex;
+    background-color: rgb(53, 147, 184);
+    justify-content: center;
+  }
+
+  texto2 {
+    color: grey;
+    background-color: rgb(233, 233, 233);
+  }
+
+  texto3 {
+    color: grey;
+    background-color: rgb(233, 233, 233);
+    display: grid;
+    grid-template-rows: 115px;
+    grid-template-columns: 150px;
+  }
+
+  cajas1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: row;
+    background-color: rgb(75, 142, 219);
+  }
+
+  texto4 {
+    color: grey;
+    background-color: rgb(233, 233, 233);
+    display: grid;
+    grid-template-columns: 208px;
+  }
+
+  texto5 {
+    color: grey;
+    background-color: rgb(170, 84, 117);
+    display: grid;
+    grid-template-columns: 624px;
+  }
+
+  cajas2 {
+    display: flex;
+    flex-flow: row;
+  }
+
+  cajas3 {
+    display: flex;
+    flex-flow: column;
+  }
+
+  texto6 {
+    color: #757171;
+    background-color: rgb(226, 221, 152);
+    display: grid;
+    grid-template-rows: 58px;
+    grid-template-columns: 832px;
+  }
+
+  texto7 {
+    color: #757171;
+    background-color: rgb(182, 102, 72);
+    display: grid;
+    grid-template-rows: 58px;
+    grid-template-columns: 832px;
+  }
+
+  texto8 {
+    color: aliceblue;
+    background-color: pink;
+    display: grid;
+    grid-template-rows: 58px;
+    grid-template-columns: 832px;
+  }
+
+  cajas4 {
+    display: flex;
+    flex-flow: row;
+  }
+
+  cajas5 {
+    display: flex;
+    flex-flow: row;
+  }
+
+  cajas6 {
+    display: flex;
+    flex-flow: row;
+  }
+
+  texto9 {
+    color: #757171;
+    background-color: pink;
+    display: grid;
+    grid-template-columns: 58px;
+    grid-template-columns: 832px;
+  }
+
+  texto10 {
+    color: white;
+    background-color: rgb(79, 112, 184);
+    grid-template-columns: 212px;
+    grid-template-rows: 86px;
+  }
+
+  
+
+  .flexbox6 {
+    background-color: red;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
+    text-align: left;
+    
+  }
+
+  .texto1 {
+    background-color: rgb(190, 128, 240);
+    grid-column: 1 / 4;
+  }
+
+
+  .texto2 {
+    background-color: rgb(135, 128, 240);
+  }
+
+  .texto3 {
+    background-color: rgb(128, 240, 152);
+  }
+
+  .texto4 {
+    background-color: rgb(240, 128, 212);
+  }
+
+
+  .texto5 {
+    background-color: rgb(240, 188, 128);
+    grid-column: 1 / 4;
+  }
+
+  .flexbox7{
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    overflow: auto;
+  }
+  
+  .texto6{
+    background-color: pink;
+    color: white;
+    display: grid;
+    grid-template-columns: 208px;
+    grid-template-rows: 144px;
+  }
+  .texto7{
+    background-color: rgb(68, 125, 172);
+    color: antiquewhite;
+    grid-template-columns: 208px;
+    grid-template-rows: 144px;
+    display: grid;
+  }
+  .texto8{
+    display: grid;
+    background-color: orangered;
+    color: white;
+    grid-template-columns: 208px;
+    grid-template-rows: 144px;
+  }
+  .texto9{
+    display: grid;
+    background-color: rgb(215, 228, 141);
+    color: grey;
+    grid-template-columns: 208px;
+    grid-template-rows: 144px;
+  }
+  .flexbox8 { 
+    resize: both;
+     overflow: auto;
+      display: grid; 
+      grid-template-columns:
+       repeat(auto-fill, minmax(100px, 1fr));
+        padding: 1em;
+         border: 1px 
+         solid blue;
+         }
+ .texto10{ 
+  background-color:lightpink;
+ }
+.texto11 { 
+  background-color: lightblue; 
+} 
+.texto12 { 
+  background-color: lightsalmon; 
+} 
+.texto13 { 
+  background-color: rgb(238, 238, 163);
+ } 
